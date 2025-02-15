@@ -26,10 +26,10 @@ function renderCard(card){
          <p class="font-bold">${element.id}</p>
          <button class="bg-red-500 active:bg-red-900 px-2 rounded-lg" onclick="deleteCard(${element.id})" >X</button>
         </div>
-        <p>${element.title}</p>
-        <p>${element.description}</p>
+        <p>${element.first_name}</p>
+        <p>${element.last_name}</p>
         <p>${formatDate(element.created_at)}</p>
-        <p class=" overflow-hidden">${(element.poster)}</p>
+        <p class=" overflow-hidden">${(element.phone_number)}</p>
         </div>
         `
 
